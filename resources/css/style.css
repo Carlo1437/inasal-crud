@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.link:hover{
+    color: white;
+    background-color: #093E00;
+    border-radius: 8px ;
+    padding: 6px;
+}
+.bg-transparent:hover{
+    background-color: white;
+    color: #093E00;
+}
+.sign:hover{
+    background-color: white;
+    color: #093E00;
+}
+/* From Uiverse.io by alexruix */
+
+   .Products{
+    margin-top: 300px;
+}
+
+.card {
+    width: 330px;
+    height: 400px;
+    padding: .8em;
+    background: #fdffe8;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.card-img {
+    background-color: #093E00;
+    height: 50%;
+    width: 100%;
+    border-radius: .5rem;
+    transition: .3s ease;
+}
+
+.card-info {
+    padding-top: 10%;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+.card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+/* For custom gap */
+.cards-container {
+    gap: 30px; /* 30px gap between the cards */
+}
+
+/* Hover effects */
+.card-img:hover {
+    transform: translateY(-25%);
+    box-shadow: black
+}
+
+.card-button:hover {
+    border: 1px solid #093E00;
+    background-color: #093E00;
+}
+.card-button{
+    /* From Uiverse.io by Custyyyy */
+#bottone5 {
+ align-items: center;
+ background-color: #FFFFFF;
+ border: 1px solid rgba(0, 0, 0, 0.1);
+ border-radius: .25rem;
+ box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+ box-sizing: border-box;
+ color: rgba(0, 0, 0, 0.85);
+ cursor: pointer;
+ display: inline-flex;
+ font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+ font-size: 16px;
+ font-weight: 600;
+ justify-content: center;
+ line-height: 1.25;
+ min-height: 3rem;
+ padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+ text-decoration: none;
+ transition: all 250ms;
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+ vertical-align: baseline;
+ width: auto;
+}
+
+#bottone5:hover,
+#bottone5:focus {
+ border-color: rgba(0, 0, 0, 0.15);
+ box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+ color: rgba(0, 0, 0, 0.65);
+}
+
+#bottone5:hover {
+ transform: translateY(-1px);
+}
+
+#bottone5:active {
+ background-color: #F0F0F1;
+ border-color: rgba(0, 0, 0, 0.15);
+ box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+ color: rgba(0, 0, 0, 0.65);
+ transform: translateY(0);
+}
+}
+/* From Uiverse.io by Custyyyy */
+.card-button {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: black;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    height: 30px;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+   }
+
+   .card-button:hover,
+   .card-button:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+   }
+
+   .card-button:hover {
+    transform: translateY(-1px);
+   }
+
+   .card-button:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+   }
